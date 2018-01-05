@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<resume>
+	
+	<job>
+		<title>Web Developer</title>
+		<location>ITFederal, LLC</location>
+		<date>May 2017 - Present</date>
+		<eventimage>https://dl.dropboxusercontent.com/s/oy2qhs708wbbsd4/IMG_4009.jpg?dl=0</eventimage>
+		<bkgimage/>
+		<descheader><![CDATA[Description Header]]></descheader>
+		<desc><![CDATA[In this role, I designed and developed websites for ITFederal,LLC. All sites were designed with user first methodologies in mind and were built mobile first. Each website was designed and protoyped using Sketch and Photoshop. The websites were mainly coded using HTML 5, CSS3, and JavaScript. A major accomplishment was the redesign and development of ITFederal's main website.]]></desc>
+	</job>
+	
+	<job>
+		<title>President</title>
+		<location>Patriot Activities Council</location>
+		<date>April 2016 - Present</date>
+		<eventimage>https://dl.dropboxusercontent.com/s/8dxgzxisj9ed0gk/IMG_3674%202.jpg?dl=0</eventimage>
+		<bkgimage/>
+		<descheader><![CDATA[Description Header]]></descheader>
+		<desc><![CDATA[In this role, I served as the president of the programming board at George Mason University. The goal of a programming board is to ensure that students are engaged in oncampus and offcampus activities, initiatives, and events. Throughout my presidency I have advised over 20 executive board members and have executived over 100 events for the Mason community. Through this role, I learned the value of designing great user experiences through event planning and learned the value of designing and executing ideas by utilizing user research.]]></desc>
+	</job>
+	
+	<job>
+		<title>Multimedia Mentor</title>
+		<location>S.T.A.R. Lab</location>
+		<date>January 2017 - August 2017</date>
+		<eventimage>https://dl.dropboxusercontent.com/s/sloly34l1bu867o/IMG_5354.jpg?dl=0</eventimage>
+		<bkgimage/>
+		<descheader><![CDATA[Description Header]]></descheader>
+		<desc><![CDATA[In this role, I served as a Multimedia Mentor for an oncampus resource lab. At STAR Lab, I was an expert in assisiting students with any web development, design, or general questions that students may have. Through this opportunity, I learned to effectively explain and breakdown concepts to help students undertstand how specific softwares or technologies worked.]]></desc>
+	</job>
+	
+
+	
+</resume>
