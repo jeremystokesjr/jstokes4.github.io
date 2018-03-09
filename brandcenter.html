@@ -1,0 +1,157 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>My Story So Far - Jeremy Stokes</title>
+<link type="text/css" href="style.css" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+
+function myFunction(chapter) {
+	
+	//Sets All to None
+	document.getElementById("chapOne").style.display = "none";
+	document.getElementById("chapTwo").style.display = "none";
+	document.getElementById("chapThree").style.display = "none";
+	document.getElementById("chapFour").style.display = "none";
+	document.getElementById("chapFive").style.display = "none";
+	document.getElementById("about").style.display = "none";
+
+	//Sets Desired section to display
+    var x = document.getElementById(chapter);
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+}
+	
+</script>
+</head>
+	
+<body >
+<img  id="image" class="background" src="background.png">
+
+<div id="main_content" class="container">
+	<div class="main">
+		<div class="text">
+			<h2 class="main_header"> Table of Contents </h2>
+			<ul>
+				<a href="#" onClick="myFunction('chapOne')"> <li> Chapter One </li> </a>
+				<a href="#" onClick="myFunction('chapTwo')"> <li> Chapter Two </li> </a>
+				<a href="#" onClick="myFunction('chapThree')"> <li> Chapter Three </li> </a>
+				<a href="#" onClick="myFunction('chapFour')"> <li> Chapter Four </li> </a>
+				<a href="#" onClick="myFunction('chapFive')"> <li> Chapter Five </li> </a>
+				<a href="#" onClick="myFunction('about')"> <li> Meet the Author </li> </a>
+			</ul>
+		</div>
+	</div>
+	
+	<div class="content">
+	
+		<div id="chapOne" class="text">
+		<h5 class="chapter"> Chapter One</h5>
+			<h2 class="chapter_header"> My Story </h2>
+			<p class="chapter_text">
+				<span class="dropCap">I</span>am a movie buff, an avid car singer, a roller coaster enthusiast, a self-taught web developer, an amateur food critic, a self-proclaimed techie, a wannabe boxer, an event planner, and I am perpetually reinventing what it means to be me — Jeremy Stokes. My innate sense of curiosity is what drives my existence and motivates me to continually push the bounds of who I am, what I like, and how I make sense of the world. 
+			</p>
+			<p class="chapter_text indent">
+				My curiosity is my greatest trait. I channel my curiosity into learning how to do new things and then I experiment with those new things to extend the bounds of myself. Though my curiosity is my greatest trait, I believe that I am truly good at sharing the experiences I learn through my curiosity with others in ways that connect with them. Whether it be taking another wannabe boxer to a boxing class or teaching another friend how to create their own website, I strive to take whatever it is that I know and enrich someone else with that knowledge. With this, I believe that I am truly good at bringing new experiences to people and creating ways to experience these new and exciting things.
+			</p>
+		</div>
+		
+		<div id="chapTwo" class="text">
+		<h5 class="chapter"> Chapter Two</h5>
+			<h2 class="chapter_header"> My New Home </h2>
+			<p class="chapter_text">
+				<span class="dropCap">I</span>grew up in Chester, Virginia, a small town located south of Richmond. Throughout my schooling, I was one of (if not the only) black student in my classes. Having the responsibility of being the only black kid granted me the burden of adding my voice to any conversation. When I was younger, I felt special because I thought everyone wanted to hear my opinion because they cared about what I had to say. As I got older, I realized it was not that they cared but it was that my voice was the only different one amongst a crowd of the same ones.
+				</p>
+				<p class="chapter_text indent">
+				Fast forward to college and I migrated from Chester to Fairfax, Virginia. It was here that I realized that my voice was not the only one that existed.  In one class, the professor started a discussion on marriage rights. Instead of hearing one cohesive perspective (as I had heard before) everyone had a different opinion and contributed new insights to the conversation. I was amazed. 
+				</p>
+				<p class="chapter_text indent">
+				With this newfound love for experiencing others stories, I immersed myself in other perspectives by attending workshops, listening to speakers, trying new foods, learning the different dances, supporting a cause, and eventually joining an organization that’s goal is to bring together these different people through engaging events and programs. 
+				</p>
+				<p class="chapter_text indent">
+				In retrospect, these past four years in Fairfax allowed me to realize the truly unique thing about people is that each person has a different experience and perspective. Though I might not be able to fully understand everyone, it is possible to listen, question, and immerse oneself in these perspectives to truly have a better grasp on how the world operates. 
+			</p>
+		
+				
+		</div>
+		
+		<div id="chapThree" class="text">
+		<h5 class="chapter"> Chapter Three</h5>
+			<h2 class="chapter_header"> My Road to Brandcenter </h2>
+			<p class="chapter_text">
+				<span class="dropCap">I</span> am going to be a doctor, is the affirmation I recited to myself ever since I was first asked the question, "What do you want to be when you grow up?" Looking back, I think it was my anxiety that forced me to blurt out the only profession that came to my mind at that moment. Nonetheless, I ventured forth on my quest to becoming a doctor.
+			</p>
+				<p class="chapter_text indent">
+				I took on the many challenges of shadowing doctors, following the medical news, taking arduous science classes, interning with physicians, and watching every season of Greys Anatomy — all things I thought any aspiring doctor would do. Yet, I did not feel like I was made to be a doctor. Truth is, I did not want to subject myself to medicine for the rest of my life.
+				</p>
+				
+				<p class="chapter_text indent">
+				Lost, I relied on my trusted friend, Google, in this time of uncertainty. I searched and searched and searched for hours but ultimately the endless number of careers intensified my uncertainty.  Scared, I retreated to the safety of online shopping. When the webpage loaded, all the color was absent and only the text was displayed. Wanting a quick fix to this issue, I, again, relied on Google. After a couple of searches, I uncovered the wonderful world of HTML and CSS. I did not know it then, but this discovery would ignite my obsession with web design and web development. 
+				</p>
+				<p class="chapter_text indent">
+				Each day, I watched tutorials on YouTube and I read endless pages from W3Schools before I took the challenge of building my first website. Though extremely simple, I was proud of my creation and I could not stop there. In the following weeks, I changed my major from biology to Information Technology (with a focus in Web Development and Multimedia), downloaded the free trial (and eventually paid) for both Sketch and Adobe Photoshop, found a cool text editor in Brackets, purchased a book on HTML and CSS fundamentals, and started honing my craft with Lynda.com. By the end of that semester, I had produced several sites and designed several others and was eager to continue learning. 
+				</p>
+				
+				<p class="chapter_text indent">
+				My thirst for knowledge was both a blessing and curse. I realized that there is a seemingly endless number of applications for design and I did not want to limit myself to solely web design. I started to realize design applications in my everyday life and even in my work as an event planner for George Mason University. With the skills that I had attained, I wanted to make things simple, fun, effective, and memorable for everyone. This desire motivated me to expand my skillset to include music editing, photo editing, application design, video editing, and more so that I could create better experiences for those that interacted with my creations.
+				</p>
+				
+				<p class="chapter_text indent">
+				One day, while I was driving to have lunch with my friend at his internship at WestRock, I passed the Brandcenter. Amazed at how the building looked from the outside, I started to research the work that was done on the inside.  I was mesmerized by all the great work that the students in this program achieved and the creative freedom that the program fostered. From that moment, I knew that the Brandcenter was where I belonged. The Brandcenter will give me the creative space to learn, to fail, to imagine, and to create in ways that I could never imagine. Not only that, but through the environment at the Brandcenter, I would combine everything that I have learned so far and challenge me to continue to learn and build upon that knowledge. In the end, being a part of the Brandcenter will put me on the path and equip me with the tools to create experiences that excite and create ever-lasting memories for people.	
+				</p>	
+		</div>
+		
+		
+		<div id="chapFour" class="text">
+		<h5 class="chapter"> Chapter Four</h5>
+			<h2 class="chapter_header"> My Split Decision </h2>
+			<p class="chapter_text">
+				<span class="dropCap">E</span>ach year, my Patriot Activities Council (PAC) team and I organize a trip to Kings Dominion for its annual Halloween Haunt. The trip is not only fun for the students that attend, but it is also a great bonding experience for all the PAC team as well. The day was going great until nightfall came and my roommate, who has diabetes, began to feel sick from his sugar levels being extremely low. Because of this, he did not feel comfortable making the two hour drive back to campus. Being that I was the only person that knew of his condition and knew how to drive his car, I decided that I had to take him back to campus. Before leaving, I let my PAC team know of the situation and I made sure that they knew of their responsibilities for the remainder of the trip. I thought I had covered all my bases, but the next day my team told me of all the troubles that had occurred. My team felt as if I had abandoned them because of my early departure. Being that this was the first year that I had been president of the organization, their words left me uneasy. I felt like I had failed to live up to my team's expectations of me and had let them down. Knowing that tensions were still high amongst the members, I called an emergency meeting with a facilitator. During the meeting, I listened to what my team members had to say about the situation. After hearing their concerns, I told my team that I stood behind my decision to leave the park with my roommate. I went on to highlight the lessons that the team learned by going through this situation and how these lessons can better equip us for larger events in the future. After the meeting, I got to work on planning team bonding activities and other opportunities for the team to be leaders. Though I felt like I had failed my team by having them question my decision-making abilities, being able to stand behind my decision empowered me as a leader to have trust in my own thinking.  I knew that I had made the correct choice because of the trust I had in my team’s abilities. My team was just unsure of their own capabilities. Though this situation could have left a divide amongst us, I believe that this perceived failure turned into an invaluable motivator for myself and the rest of the Patriot Activities Council.
+
+		
+			</p>	
+		</div>
+		
+		<div id="chapFive" class="text">
+		<h5 class="chapter"> Chapter Five</h5>
+			<h2 class="chapter_header"> My Future </h2>
+			<p class="chapter_text">
+				<span class="dropCap">E</span>xperience Design is the process of creating, adapting, building, and implementing the means in which users interact with a brand or a product.  As an experience designer, the aim is to invent creative and memorable solutions that are designed completely around the user. To create these experiences, Experience Designers have an endless number of tools in their toolbox that allows them to envision and produce the best user experiences imaginable. Experience Designers take on a wide range of job titles including information architect, creative technologist, interaction designer, and much more, but the end goal remains the same. In the end, Experience Designers aspire to create experiences that ultimately matter to people and have an everlasting impact on peoples’ lives.
+
+		
+			</p>	
+		</div>
+		
+		<div id="about" class="text">
+		<h5 class="chapter"> </h5>
+			<h2 class="chapter_header"> Meet The Author </h2>
+			<p class="chapter_text inline">
+				<span class="dropCap">L</span>orem ipsum dolor sit amet, consectetur adipiscing elit. Nam urna magna, facilisis aliquet ullamcorper quis, gravida a massa. Maecenas vitae quam nisi. In aliquam placerat arcu, ut egestas arcu. Aliquam maximus lectus quis condimentum volutpat. Proin porta dolor ut est lacinia euismod. 
+		
+			</p>
+			<img class="img" src="image.jpg" alt="Picture of Jeremy Stokes" >	
+		</div>
+		
+	</div>
+
+	</div>
+<script>
+function start(){
+	document.getElementById("main_content").style.display = "none";
+	
+	setTimeout(displayContent, 5000);
+}
+	
+function displayContent(){
+	document.getElementById("image").style.display = "none";
+	document.getElementById("main_content").style.display = "grid";
+	
+}
+	window.addEventListener("load",start(), false)
+	</script>
+</body>
+</html>
